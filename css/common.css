@@ -72,9 +72,14 @@ body {
 
 /*--------Main---------*/
 
-.main { 
+.main .wrapper{
 	background: #EFE;
-	
+	overflow: hidden;
+}
+
+.main .blog a img {
+	width: 20em;
+	height: 10em;
 }
 
 .gallery { 
@@ -87,7 +92,6 @@ body {
 
 /* Columns */
 
-.column { float: left; overflow: hidden; }
-.content { width: 70%; }
-.sidebar { width: 30%; }
+.column { float: left;  width: 30%; margin: 1em;}
+
 
